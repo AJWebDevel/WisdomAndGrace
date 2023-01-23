@@ -43,7 +43,7 @@ GO
 
 SET IDENTITY_INSERT [UserType] ON
 INSERT INTO [UserType]
-  ([Id], [Name])
+  ([Id], [Email])
 VALUES 
   (1, 'admin'), 
   (2, 'user');
@@ -54,8 +54,8 @@ SET IDENTITY_INSERT [UserProfile] ON
 INSERT INTO [UserProfile]
   ([Id], [FirebaseUserId], [Name], [Email], [UserTypeId])
 VALUES
-  (1, '4oULyNuszpUGbNkTqGS0T8Iqs1L2', 'Foo Barington', 'foo@bar.com', 1),
-  (2, 'vP3tkzRXWmRzwSLGwNTBS5fJs2N2', 'Bar Bazaar', 'bar@baz.com', 2);
+  (1, '4oULyNuszpUGbNkTqGS0T8Iqs1L2', 'Sally Sallerton', 'sallysallerton@mail.com', 1),
+  (2, 'vP3tkzRXWmRzwSLGwNTBS5fJs2N2', 'Tally Tallerton', 'TallyTallerton@mail.com', 2);
 SET IDENTITY_INSERT [UserProfile] OFF
 
 
